@@ -1,0 +1,720 @@
+# Copyright (C) 2010 IndyPress
+# This file is distributed under the same license as the IndyPress package.
+msgid ""
+msgstr ""
+"Project-Id-Version: IndyPress 0.4+:63M\n"
+"Report-Msgid-Bugs-To: http://wordpress.org/tag/indypress\n"
+"POT-Creation-Date: 2011-05-23 15:46:47+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2010-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+
+#: templates/comments.php:18 templates/comments.php:45
+msgid "Your comment is awaiting moderation."
+msgstr ""
+
+#: templates/comments.php:25 templates/comments.php:52
+msgid "%1$s at %2$s"
+msgstr ""
+
+#: templates/comments.php:25 templates/comments.php:52
+#: templates/comments.php:70
+msgid "(Edit)"
+msgstr ""
+
+#: templates/comments.php:70
+msgid "Pingback:"
+msgstr ""
+
+#: classes/next-event.php:103 classes/publication.class.php:520
+msgid "Title"
+msgstr "Titolo"
+
+#: classes/next-event.php:110
+msgid "Alert (when there aren' next event)"
+msgstr "Attenzione (quando non ci sono prossimi eventi)"
+
+#: classes/next-event.php:114
+msgid ""
+"Filter by category when viewing one of these categories (comma separated IDs)"
+msgstr ""
+
+#: classes/publication.class.php:112
+msgid "Post published."
+msgstr "Post pubblicato"
+
+#: classes/publication.class.php:113 classes/publication.class.php:128
+msgid "View"
+msgstr "Visualizza"
+
+#: classes/publication.class.php:117 classes/publication.class.php:131
+msgid "Attenzione! Devi riempire o correggere i seguenti campi"
+msgstr ""
+
+#: classes/publication.class.php:203
+msgid "Titolo"
+msgstr ""
+
+#: classes/publication.class.php:207
+msgid "Corpo del testo"
+msgstr ""
+
+#: classes/publication.class.php:211
+msgid "Autore"
+msgstr ""
+
+#: classes/publication.class.php:527
+msgid "Content"
+msgstr ""
+
+#: classes/publication.class.php:543 classes/hide_admin.class.php:240
+#: classes/hide_admin.class.php:246 classes/signal_admin.class.php:119
+#: classes/signal_admin.class.php:126
+#: classes/publication_settings.class.php:26
+msgid "Author"
+msgstr "Autore"
+
+#: classes/publication.class.php:548
+msgid "Link autore"
+msgstr ""
+
+#: classes/publication.class.php:572
+msgid "Argomenti"
+msgstr ""
+
+#: classes/publication.class.php:593 classes/publication_settings.class.php:46
+msgid "Tags"
+msgstr ""
+
+#: classes/publication.class.php:607
+msgid "Publish"
+msgstr "Pubblica"
+
+#: classes/publication.class.php:610
+msgid "preview"
+msgstr "Anteprima"
+
+#: classes/admin.class.php:15 classes/live-blogging_settings.class.php:27
+msgid "Main"
+msgstr "Principale"
+
+#: classes/admin.class.php:16
+msgid ""
+"Add event to administration interface (allow to hide link but keep it still "
+"working)"
+msgstr "Aggiunta di eventi dall'interfaccia di amministrazione (nota: deselezionarla nasconde ma non impedisce di usare il link)"
+
+#: classes/admin.class.php:31 classes/admin.class.php:214
+#: classes/visualization-settings.class.php:83
+#: classes/hide_admin.class.php:223 classes/signal_admin.class.php:102
+#: classes/live-blogging_settings.class.php:71
+#: classes/publication_settings.class.php:289
+msgid "You do not have sufficient permissions to access this page."
+msgstr "Non hai i permessi necessari per accedere a questa pagina."
+
+#: classes/admin.class.php:41 classes/visualization-settings.class.php:95
+#: classes/live-blogging_settings.class.php:82
+#: classes/publication_settings.class.php:303
+msgid "Save Changes"
+msgstr "Salva cambiamenti"
+
+#: classes/admin.class.php:57 classes/visualization-settings.class.php:11
+#: classes/live-blogging_settings.class.php:20
+#: classes/publication_settings.class.php:11
+msgid "Settings"
+msgstr "Settaggi"
+
+#: classes/admin.class.php:67
+msgid "Start and stop event time"
+msgstr "Ora di inizio e fine evento"
+
+#: classes/admin.class.php:91
+msgid "January"
+msgstr "Gennaio"
+
+#: classes/admin.class.php:91
+msgid "Febrauty"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "March"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "April"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "May"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "June"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "July"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "August"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "September"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "October"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "November"
+msgstr ""
+
+#: classes/admin.class.php:91
+msgid "Dicember"
+msgstr ""
+
+#: classes/admin.class.php:93
+msgid "Start event"
+msgstr ""
+
+#: classes/admin.class.php:94
+msgid "Start day"
+msgstr ""
+
+#: classes/admin.class.php:95
+msgid "Start month"
+msgstr ""
+
+#: classes/admin.class.php:104
+msgid "Start year"
+msgstr ""
+
+#: classes/admin.class.php:106
+msgid "Start hour"
+msgstr ""
+
+#: classes/admin.class.php:115
+msgid "Start minut"
+msgstr ""
+
+#: classes/admin.class.php:126
+msgid "End event"
+msgstr ""
+
+#: classes/admin.class.php:127
+msgid "End day"
+msgstr ""
+
+#: classes/admin.class.php:128
+msgid "End month"
+msgstr ""
+
+#: classes/admin.class.php:137
+msgid "End year"
+msgstr ""
+
+#: classes/admin.class.php:139
+msgid "End hour"
+msgstr ""
+
+#: classes/admin.class.php:148
+msgid "End minut"
+msgstr ""
+
+#: classes/signal.class.php:33
+msgctxt "post"
+msgid "Segnalati"
+msgstr ""
+
+#: classes/signal.class.php:36
+msgid "Segnalati <span class=\"count\">(%s)</span>"
+msgid_plural "Segnalati <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/signal.class.php:79 classes/signal.class.php:83
+msgid ""
+"Hai segnalato questo articolo come fuori policy. Ti ringraziamo per il tuo "
+"contributo!"
+msgstr ""
+
+#: classes/signal.class.php:81 classes/signal.class.php:85
+msgid "Non è stato possibile segnalare questo articolo."
+msgstr ""
+
+#: classes/signal.class.php:104 classes/signal.class.php:108
+msgid ""
+"Hai segnalato questo commento come fuori policy. Ti ringraziamo per il tuo "
+"contributo!"
+msgstr ""
+
+#: classes/signal.class.php:106 classes/signal.class.php:110
+msgid "Non è stato possibile segnalare questo commento."
+msgstr ""
+
+#: classes/signal.class.php:120
+msgid "Segnala come fuori policy"
+msgstr ""
+
+#: classes/signal.class.php:122
+msgid ""
+"Se ritieni che questo articolo è spam o fuori policy puoi segnalarlo "
+"cliccando sul tasto \"Segnala articolo!\"."
+msgstr ""
+
+#: classes/signal.class.php:124
+msgid "Antispam.. lasciare invariato!"
+msgstr ""
+
+#: classes/signal.class.php:127
+msgid "Segnala articolo!"
+msgstr ""
+
+#: classes/visualization-settings.class.php:11
+msgid "Visualization"
+msgstr ""
+
+#: classes/visualization-settings.class.php:16
+msgid "Visualization: theme"
+msgstr ""
+
+#: classes/visualization-settings.class.php:18
+msgid "Show attached image as thumbnail"
+msgstr ""
+
+#: classes/visualization-settings.class.php:20
+msgid "Event visualization"
+msgstr ""
+
+#: classes/visualization-settings.class.php:23
+msgid ""
+"Add information to event (It works whitout theme configuration, must be "
+"disabled if you want to configure your theme manually)"
+msgstr ""
+
+#: classes/visualization-settings.class.php:25
+msgid "Comment visualization "
+msgstr ""
+
+#: classes/visualization-settings.class.php:28
+msgid ""
+"Show promoted comments (It works whitout theme configuration, must be "
+"disabled if you want to configure your theme manually)"
+msgstr ""
+
+#: classes/visualization-settings.class.php:30
+msgid "SEO"
+msgstr ""
+
+#: classes/visualization-settings.class.php:32
+msgid "Do not allow to index hidden posts"
+msgstr ""
+
+#: classes/visualization-settings.class.php:34
+msgid "Do not allow to follow links from hidden posts"
+msgstr ""
+
+#: classes/visualization-settings.class.php:36
+msgid "Do not allow to index premoderate posts"
+msgstr ""
+
+#: classes/visualization-settings.class.php:38
+msgid "Do not allow to follow links from premoderate posts"
+msgstr ""
+
+#: classes/visualization-settings.class.php:41
+msgid "Admin actions"
+msgstr ""
+
+#: classes/visualization-settings.class.php:43
+msgid "Make hide/promote actions AJAX"
+msgstr ""
+
+#: classes/hide_admin.class.php:43
+msgctxt "post"
+msgid "Nascosto"
+msgstr ""
+
+#: classes/hide_admin.class.php:46
+msgid "Nascosti <span class=\"count\">(%s)</span>"
+msgid_plural "Nascosti <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/hide_admin.class.php:50
+msgctxt "post"
+msgid "Premoderate"
+msgstr ""
+
+#: classes/hide_admin.class.php:53
+msgid "Premoderate <span class=\"count\">(%s)</span>"
+msgid_plural "Premoderate <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/hide_admin.class.php:132 classes/signal_admin.class.php:45
+#: classes/hide.class.php:93
+msgid "UnHide this post"
+msgstr ""
+
+#: classes/hide_admin.class.php:132 classes/hide_admin.class.php:208
+#: classes/signal_admin.class.php:45 classes/hide.class.php:93
+#: classes/hide.class.php:95
+msgid "UnHide"
+msgstr ""
+
+#: classes/hide_admin.class.php:134
+msgid "Approve this post"
+msgstr ""
+
+#: classes/hide_admin.class.php:134
+msgid "Approve"
+msgstr ""
+
+#: classes/hide_admin.class.php:136 classes/signal_admin.class.php:47
+#: classes/hide.class.php:99
+msgid "Hide this post"
+msgstr ""
+
+#: classes/hide_admin.class.php:136 classes/hide_admin.class.php:212
+#: classes/signal_admin.class.php:47 classes/hide.class.php:99
+msgid "Hide"
+msgstr ""
+
+#: classes/hide_admin.class.php:171
+msgid "Nascosti"
+msgstr ""
+
+#: classes/hide_admin.class.php:208
+msgid "UnHide this comment"
+msgstr ""
+
+#: classes/hide_admin.class.php:210
+msgid "Make this comment normal"
+msgstr ""
+
+#: classes/hide_admin.class.php:210
+msgid "UnPromote"
+msgstr ""
+
+#: classes/hide_admin.class.php:212
+msgid "Hide this comment"
+msgstr ""
+
+#: classes/hide_admin.class.php:241 classes/hide_admin.class.php:247
+#: classes/signal_admin.class.php:120 classes/signal_admin.class.php:127
+msgid "Comment"
+msgstr ""
+
+#: classes/hide_admin.class.php:259 classes/signal_admin.class.php:140
+msgid "Anonimo"
+msgstr ""
+
+#: classes/hide_admin.class.php:266 classes/signal_admin.class.php:147
+msgid "%s ago"
+msgstr ""
+
+#: classes/hide_admin.class.php:268 classes/signal_admin.class.php:149
+msgid "Y/m/d \\a\\t g:i A"
+msgstr ""
+
+#: classes/signal_admin.class.php:26
+msgid "IndyPress commenti segnalati"
+msgstr ""
+
+#: classes/signal_admin.class.php:26
+msgid "Segnalati come fuori policy"
+msgstr ""
+
+#: classes/signal_admin.class.php:33
+msgctxt "post"
+msgid "Pubblicato e segnalato"
+msgstr ""
+
+#: classes/signal_admin.class.php:36
+msgid "Pubblicati e segnalati <span class=\"count\">(%s)</span>"
+msgid_plural "Pubblicati e segnalati <span class=\"count\">(%s)</span>"
+msgstr[0] ""
+msgstr[1] ""
+
+#: classes/signal_admin.class.php:50
+msgid "Ignora le segnalazioni"
+msgstr ""
+
+#: classes/signal_admin.class.php:50
+msgid "Ignora segnalazioni"
+msgstr ""
+
+#: classes/signal_admin.class.php:67
+msgid "Articolo settato come "
+msgstr ""
+
+#: classes/signal_admin.class.php:69
+msgid "Articolo già hiddato"
+msgstr ""
+
+#: classes/signal_admin.class.php:121 classes/signal_admin.class.php:128
+msgid "Segnalazioni"
+msgstr ""
+
+#: classes/hide.class.php:101
+msgid "Promote this post"
+msgstr ""
+
+#: classes/publication_theme.class.php:25
+msgid "Inizio evento:"
+msgstr ""
+
+#: classes/publication_theme.class.php:26
+msgid "Fine evento:"
+msgstr ""
+
+#: classes/publication_theme.class.php:167
+msgid "File allegati"
+msgstr ""
+
+#: classes/common.class.php:16
+msgid "Events created with IndyPress"
+msgstr ""
+
+#: classes/common.class.php:18
+msgctxt "post type general name"
+msgid "Events"
+msgstr ""
+
+#: classes/common.class.php:19
+msgctxt "post type singular name"
+msgid "Event"
+msgstr ""
+
+#: classes/common.class.php:20
+msgctxt "event"
+msgid "Add New"
+msgstr ""
+
+#: classes/common.class.php:21
+msgid "Add New Event"
+msgstr ""
+
+#: classes/common.class.php:22
+msgid "Edit Event"
+msgstr ""
+
+#: classes/common.class.php:23
+msgid "New Event"
+msgstr ""
+
+#: classes/common.class.php:24
+msgid "View Event"
+msgstr ""
+
+#: classes/common.class.php:25
+msgid "Search Events"
+msgstr ""
+
+#: classes/common.class.php:26
+msgid "No events found"
+msgstr ""
+
+#: classes/common.class.php:27
+msgid "No events found in Trash"
+msgstr ""
+
+#: classes/live-blogging_settings.class.php:28
+msgid "Active Liveblogs"
+msgstr ""
+
+#: classes/live-blogging_settings.class.php:29
+msgid "Liveblogs on which publication is premoderated"
+msgstr ""
+
+#: classes/publication_settings.class.php:11
+msgid "Publication"
+msgstr ""
+
+#: classes/publication_settings.class.php:21
+msgid "Main settings"
+msgstr ""
+
+#: classes/publication_settings.class.php:24
+msgid "Enable open publication"
+msgstr ""
+
+#: classes/publication_settings.class.php:28
+msgid "Publication page"
+msgstr ""
+
+#: classes/publication_settings.class.php:30
+msgid "Categories"
+msgstr ""
+
+#: classes/publication_settings.class.php:33
+msgid "Publication categories"
+msgstr ""
+
+#: classes/publication_settings.class.php:35
+msgid "Events publication categories"
+msgstr ""
+
+#: classes/publication_settings.class.php:37
+msgid "Registered users categories"
+msgstr ""
+
+#: classes/publication_settings.class.php:39
+msgid "Categories which need to enable premoderation"
+msgstr ""
+
+#: classes/publication_settings.class.php:41
+msgid "Custom fields"
+msgstr ""
+
+#: classes/publication_settings.class.php:44
+msgid "Author web address"
+msgstr ""
+
+#: classes/publication_settings.class.php:48
+msgid "Localization categories "
+msgstr ""
+
+#: classes/publication_settings.class.php:50
+msgid "Arguments"
+msgstr ""
+
+#: classes/publication_settings.class.php:52
+msgid "Selectable args limit (-1 no limits, 0 hide args)"
+msgstr ""
+
+#: classes/publication_settings.class.php:54
+msgid "Form features"
+msgstr ""
+
+#: classes/publication_settings.class.php:57
+msgid "Visual Editor"
+msgstr ""
+
+#: classes/publication_settings.class.php:59
+msgid "Disable CSS by default"
+msgstr ""
+
+#: classes/publication_settings.class.php:61
+msgid "Automatic validation (JavaScript)"
+msgstr ""
+
+#: classes/publication_settings.class.php:63
+msgid "Tags autocompletion"
+msgstr ""
+
+#: classes/publication_settings.class.php:65
+msgid "JavaScript interface"
+msgstr ""
+
+#: classes/publication_settings.class.php:67
+msgid "Upload images"
+msgstr ""
+
+#: classes/publication_settings.class.php:69
+msgid "Upload audio"
+msgstr ""
+
+#: classes/publication_settings.class.php:71
+msgid "Upload video"
+msgstr ""
+
+#: classes/publication_settings.class.php:73
+msgid "Upload file"
+msgstr ""
+
+#: classes/publication_settings.class.php:75
+msgid "Embed file"
+msgstr ""
+
+#: classes/publication_settings.class.php:77
+msgid "Embed video"
+msgstr ""
+
+#: classes/publication_settings.class.php:79
+msgid "Help on publication message (HTML)"
+msgstr ""
+
+#: classes/publication_settings.class.php:81
+msgid "Help on publication message link"
+msgstr ""
+
+#: classes/publication_settings.class.php:84
+msgid "Enable preview"
+msgstr ""
+
+#: classes/publication_settings.class.php:87
+msgid "Registered users skip premoderation"
+msgstr ""
+
+#: classes/upload.class.php:150
+msgid "Add an Image"
+msgstr ""
+
+#: classes/upload.class.php:152
+msgid "File supportati: jpeg, png, gif, tiff, ico."
+msgstr ""
+
+#: classes/upload.class.php:155 classes/upload.class.php:166
+#: classes/upload.class.php:179 classes/upload.class.php:200
+msgid "Upload"
+msgstr ""
+
+#: classes/upload.class.php:161
+msgid "Add Audio"
+msgstr ""
+
+#: classes/upload.class.php:163
+msgid "File supportati: mp3, ogg."
+msgstr ""
+
+#: classes/upload.class.php:172
+msgid "Add Video"
+msgstr ""
+
+#: classes/upload.class.php:176
+msgid "Invia un file (file supportati: ?)"
+msgstr ""
+
+#: classes/upload.class.php:184
+msgid "Inserisci un video da un altro sito inserendo qui il suo indirizzo"
+msgstr ""
+
+#: classes/upload.class.php:186
+msgid "Embed"
+msgstr ""
+
+#: classes/upload.class.php:195
+msgid "Carica file generico"
+msgstr ""
+
+#: classes/upload.class.php:197
+msgid "File supportati: testo, office, pdf."
+msgstr ""
+
+#. Plugin Name of the plugin/theme
+msgid "IndyPress"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "http://code.autistici.org/p/indypress"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid "Make your WordPress as an Indypendent Media Center"
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "p(A)skao"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "paskao@hacari.org"
+msgstr ""

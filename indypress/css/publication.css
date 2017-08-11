@@ -1,0 +1,131 @@
+div#indypress_upload {
+	top: 0;
+	left: 0;
+	position: fixed;
+	margin: 0;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+	display:none;
+	z-index: 9999;
+}
+
+div#indypress_upload2 {
+	width: 500px;
+/*    height: 240px;*/
+	margin: 200px auto;
+	vertical-align: middle;
+	border: 1px solid #999;
+	background: #eeeeff;
+	z-index: 99999;
+}
+	
+div#indypress_upload2 p {
+	margin-bottom: 5px;
+}
+
+div#indypress_upload2 div {
+	display: none;
+}
+
+div#indypress_upload2 span {
+	font-weight: bold;
+}
+
+div#indypress_upload img {
+	border: 0;
+	margin: 2px;
+	padding: 0;
+}
+
+div#indypress_upload form {
+	padding: 0;
+/*    height: 100px;*/
+}
+
+div#indypress_upload p {
+	background: #369;
+	color: #fff;
+	font-weight: bold;
+}
+
+#indypress_upload_process{
+	z-index:100;
+	position:absolute;
+	visibility:hidden;
+	text-align:center;
+	width:400px;
+	margin:0px;
+	padding:0px;
+	background-color:#fff;
+	border:1px solid #ccc;
+}
+#content table.mceToolbar {
+	width: auto;
+	margin: 0;
+	padding: 0;
+	border: 0px;
+}
+
+#content tr td {
+	border: 0;
+	padding: 0;
+	margin: 0;
+}
+
+#post_attachment {
+	display: none;
+}
+
+#content input.optional {
+	background: #ffa;
+}
+
+#content .indypress_button {
+	padding: 0;
+	border: 0;
+}
+.indypress_button {
+	filter:alpha(opacity=85);
+	-moz-opacity:0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+	padding: 0;
+	border: 0;
+}
+
+.indypress_button:hover {
+	filter:alpha(opacity=100);
+	-moz-opacity:1.0;
+	-khtml-opacity: 1.0;
+	opacity: 1.0;
+}
+
+.indypress_attachment_list {
+	background: #eee;
+	padding:5px;
+	margin:0;
+}
+.indypress_attachment_list div {
+	padding: 0;
+	margin: 0;
+}
+.indypress_attachment_list div:hover {
+	background: #fff;
+}
+.indypress_attachment_list a {
+	font-size: 90%;
+	margin: 0;
+	padding:0;
+}
+#content .indypress_attachment_list img {
+	border: 0;
+	margin: 0;
+	padding: 0;
+	float: left;
+}
+/* editor */
+#post_content_tbl table {
+	margin:0;
+	padding:0;
+}

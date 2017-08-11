@@ -1,0 +1,44 @@
+== UI e config ==
+Ogni "slot" di pubblicazione si crea semplicemente facendo add: nel menu appare una nuova pagina.
+Uno slot si configura con vari campi json:
+	* FORM: questa e' un array di input. Ogni input e' un dizionario, con campi
+	  obbligatori name e type. Poi tutto il resto serve ad impostare le
+	  opzioni. Esempio:
+	  [ { "name":"post_content", "type":"tinymce", "mobile":"text" },
+	    { "name": "title", "type": "line" },
+		{ "name": "tags", "type": "autocomplete", "taxonomy":"tag" }
+	  ]
+	* ACTIONS: cosa "applicare" a questo post. Si possono impostare termini da
+	  assegnare, tipo di evento da scegliere, altre "modifiche automatiche"
+Si possono anche assegnare delle opzioni globali in modo analogo:
+	[ "tinymce": { "mobile":"text", "add_buttons":"bold,justify" },
+	"autocomplete": {"taxonomy":"tag"} ]
+
+== Generale ==
+
+Gli input e le azioni sono OGGETTI. I loro argomenti sono dati al costruttore.
+Da li registrano i filtri necessari. Sta alla buona pratica del programmatore
+registrarsi solo per i SUOI input e non toccare cose altrui
+
+== Generazione del form ==
+
+Vengono chiamati degli "handler" (filtri, in sostanza) per ogni input
+
+== Validazione ==
+
+Ogni input viene chiamato mostrando cosa ha inviato l'utente su QUEL campo, e
+quali erano le opzioni. Ritorna un array di errori: se vuoto, tutto ok.
+
+Chiunque puo' registrarcisi, e naturalmente anche gli input dovrebbero farlo.
+
+== Pubblicazione ==
+
+Prima vengono chiamati dei filtri per "modificare" i dati mandati in POST
+dall'utente: questo e' utile ad esempio per i tags (passare da stringa a lista
+con `explode(',')` o per le date (passare da tanti campi a un solo timestamp).
+Spesso non serve.
+
+Poi, vengono personalizzati attraverso i filtri definiti nelle azioni alcuni
+cambi "fondamentali" come titolo,autore, contenuto, ecc.  Si crea il post
+Vengono chiamate le altre azioni per personalizzare il post (metadati,
+attachment, altre modifiche)

@@ -1,0 +1,60 @@
+p, li {
+	font-size: 9pt;
+	font-family: Arial,sans-serif;
+	color: #000;
+	line-height: 140%;
+	margin:0;
+	padding:0 0 10px 0;
+}
+
+p a, p a:link  {
+	color:#369;
+	text-decoration:none;
+	padding:0;
+	font-weight:bold;
+} 
+p a:hover, p a:visited {
+	color: #666;
+	text-decoration: none;
+	padding:0;
+}
+a {color: #f00;}
+acronym, abbr, span.caps { cursor: help; }
+acronym, abbr { border-bottom: 1px dashed #999; }
+blockquote { margin: 15px 30px 0 10px; padding-left: 20px; border-left: 5px solid #ddd; }
+blockquote cite { margin: 5px 0 0; display: block; }
+.center { text-align: center; }
+a img { border: none; }
+pre {border: solid 1px #9a9a9a;
+white-space: pre-wrap; /* css-3 */
+white-space: -moz-pre-wrap !important; /* Mozilla, since 1999 */
+white-space: -pre-wrap; /* Opera 4-6 */
+white-space: -o-pre-wrap; /* Opera 7 */
+word-wrap: break-word; /* Internet Explorer 5.5+ */
+font-size: 1.3em;
+color: blue;
+margin: 10px;
+padding:10px;
+background: #f3f2ed}
+code {font-size:1.0em;color: #000}
+img.alignleft {
+	float: left;
+}
+img.alignright {
+	float: right;
+}
+img.aligncenter {
+	display: block;
+	margin: 0 auto; /* Center it */
+}
+
+.audioplayer, .videoplayer {
+	display: block;
+}
+
+.invisible {
+	display: none;
+}
+#upload-form input {
+	display: block;
+}
